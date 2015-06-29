@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="OverviewMargin..dfabb4fc-f3ba-4103-902d-b0d2a485cfa1" Version="3.1.2015.0" Language="en-US" Publisher="filipivc.com" />
+    <DisplayName>OverviewMargin</DisplayName>
+    <Description xml:space="preserve">This extension contains the AllMargins, OverviewMargin, StructureAdornment extensions, updated for VisualStudio 2015 RC.</Description>
+    <License>MS-PL.txt</License>
+    <ReleaseNotes>ReadMe.txt</ReleaseNotes>
+    <PreviewImage>AllMargins.png</PreviewImage>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Community" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Enterprise" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="OverviewMargin" Path="|OverviewMargin|" />
+  </Assets>
+</PackageManifest>
